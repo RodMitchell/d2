@@ -6,26 +6,49 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>http://www.utoronto.ca/deeds/training/</loc>
-  <lastmod>2008-07-26T16:53:19+00:00</lastmod>
+  <lastmod>2010-10-04T20:00:38+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.utoronto.ca/deeds/</loc>
+  <lastmod>2010-10-04T20:00:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.utoronto.ca/deeds/training/.</loc>
+  <lastmod>2010-10-04T20:00:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.utoronto.ca/deeds/training/testimonials.htm</loc>
-  <lastmod>2008-07-16T20:08:37+00:00</lastmod>
+  <lastmod>2010-10-04T20:00:38+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.utoronto.ca/deeds/training/contact.htm</loc>
-  <lastmod>2008-07-16T20:08:35+00:00</lastmod>
+  <loc>http://www.utoronto.ca/deeds/training/access.htm</loc>
+  <lastmod>2010-10-04T20:00:38+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
- <loc>http://www.utoronto.ca/deeds/training/courses/</loc>
-  <lastmod>2008-07-16T20:08:35+00:00</lastmod>
+  <loc>http://www.utoronto.ca/deeds/.</loc>
+  <lastmod>2010-10-04T20:00:38+00:00</lastmod>
   <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
+  <priority>0.64</priority>
+</url>
+  <loc>http://www.utoronto.ca/deeds/training/contact-form.htm</loc>
+  <lastmod>2010-10-04T20:00:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+</url>
+  <loc>http://www.utoronto.ca/deeds/training/application-form.htm</loc>
+  <lastmod>2010-10-04T20:00:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>

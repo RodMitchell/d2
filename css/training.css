@@ -284,7 +284,7 @@ text-decoration:none;
 #noscript {
 color:red;
 font-weight:bolder;
-left:204px;
+left:210px;
 position:absolute;
 top:74px;
 }
@@ -354,3 +354,6 @@ text-decoration:underline;
 ul.multi-column-list,.column1 {
 float:left;
 }
+
+#footwrap.wrapper {background:url(../images/shadow-bottom.png) 0 100% no-repeat;height:52px;}
+
