@@ -58,11 +58,6 @@ padding:0 5px 23px;
 text-decoration:none;
 }
 
-#header ul a:hover {
-background:url(../images/selector_up.png) 50% 100% no-repeat;
-color:#5bb9d6;
-}
-
 ul.mininav li {
 border-left:1px solid #fff;
 display:inline;
@@ -98,7 +93,7 @@ width:759px;
 }
 
 #middle h1 {
-color:#FFF;
+color:#fff;
 font-size:1.25em;
 line-height:1.5em;
 margin:0;
@@ -175,11 +170,7 @@ margin:0 10px;
 width:95%;
 }
 
-#middle td {
-color:#5bb9d6;
-padding:5px;
-text-align:left;
-}
+#middle td {color:#5bb9d6;padding:5px;text-align:left;border-top:1px solid #fff}
 
 #middle th {
 font-size:1em;
@@ -196,15 +187,6 @@ border-top:2px solid #608080;
 color:#000;
 }
 
-#middle td a:hover,#middle td a:active {
-color:#905F00;
-}
-
-#middle p a:visited {
-color:#608080;
-text-decoration:none;
-}
-
 #content {
 float:left;
 margin:12px;
@@ -218,16 +200,6 @@ float:left;
 font-size:.7em;
 margin:0 0 20px 60px;
 width:85%;
-}
-
-#linkbox a:link,a:visited {
-color:#000;
-text-decoration:none;
-}
-
-#linkbox a:hover,a:focus {
-color:#000;
-text-decoration:underline;
 }
 
 div#linkbox-col1 {
@@ -256,15 +228,7 @@ right:5px;
 top:5px;
 }
 
-#footer a:hover,#footer a:active {
-color:#5bb9d6;
-text-decoration:underline;
-}
-
-#footer a:focus {
-color:#fff;
-text-decoration:underline;
-}
+ul.multi-column-list,.column1 {float:left}
 
 .yellow {
 background-color:#FF9;
@@ -311,10 +275,6 @@ list-style-type:none;
 padding:10px 40px 10px 20px;
 }
 
-#content #navlist ul a {
-color:#204040;
-}
-
 .clear {
 clear:both;
 height:0;
@@ -333,27 +293,44 @@ font-size:.8em;
 font-weight:400;
 margin:0;
 }
-
-ul.mininav a:link,ul.mininav a:visited,ul.mininav a:active,#footer a:link,#footer a:visited {
-color:#fff;
-text-decoration:none;
-}
-
-#middle td a:link,#middle p a:link,#content #navlist ul a:hover,#content #navlist ul a:focus {
-color:#000;
-}
-
-#middle td a:visited,#middle p a:hover,#middle p a:active {
-color:#608080;
-}
-
-#middle td a:focus,#middle p a:focus {
-text-decoration:underline;
-}
-
-ul.multi-column-list,.column1 {
-float:left;
-}
-
+/* links */
+a {outline:0} 
+a:focus {outline-width:thin;outline-style:dotted;outline-color:#00ff00}
+/* mininav */
+ul.mininav a:link {color:#fff}
+ul.mininav a:hover {color:#fff}
+ul.mininav a:active {color:#fff}
+ul.mininav a:visited {color:#fff}
+ul.mininav a:focus {color:#fff}
+/*middle*/
+#middle td a:link {color:#000}
+#middle td a:visited {color:#608080;text-decoration:none}
+#middle td a:hover {color:#608080}
+#middle td a:active {color:#608080}
+#middle td a:focus {color:#000;text-decoration:underline} 
+#middle a:link {color:#000}
+#middle a:visited {color:#608080;text-decoration:none}
+#middle a:hover {color:#608080}
+#middle a:active {color:#608080}
+#middle a:focus {color:#000;text-decoration:underline} 
+/*navlist*/
+#content #navlist ul a {color:#204040}
+#content #navlist ul a:hover {color:#000}
+#content #navlist ul a:focus {color:#000}
+/*linkbox*/
+#linkbox a:link {color:#000;text-decoration:underline}
+#linkbox a:visited {color:#000;text-decoration:none}
+#linkbox a:hover {color:#608080;text-decoration:underline}
+#linkbox a:active {color:#000;text-decoration:underline}    
+#linkbox a:focus {color:#000;text-decoration:underline}    
+/*footer*/
+#footer a:link {color:#fff;text-decoration:none}
+#footer a:visited {color:#fff;text-decoration:none}
+#footer a:hover {color:#5bb9d6;text-decoration:underline}
+#footer a:active {color:#5bb9d6;text-decoration:underline}
+#footer a:focus {color:#fff;text-decoration:none}       
+/*header*/
+#header ul a:hover {background:url(../images/selector_up.png) 50% 100% no-repeat;color:#5bb9d6}  
+/*shadow short pages only*/
 #footwrap.wrapper {background:url(../images/shadow-bottom.png) 0 100% no-repeat;height:52px;}
 
